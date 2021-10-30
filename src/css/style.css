@@ -1,0 +1,105 @@
+body {
+  background: radial-gradient(circle at top left, #353434, #000);
+  height: 100vh;
+  margin-bottom: 50px ;
+  margin: 0 60px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.navbar-brand {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff !important;
+  margin: 0px 85px;
+}
+
+.nav-item {
+  position: relative;
+  top: 10px;
+  margin: 10px 30px !important;
+  cursor: pointer;
+}
+
+.right-menu {
+  position: relative;
+  right: 80px;
+  top: 10px;
+  width: 80px;
+  height: 40px;
+  background: rgb(49, 48, 48);
+  border-radius: 50px;
+}
+
+.profile-img {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border-radius: 50px;
+  background: url("../assets/profile-pic.jpg");
+  background-size: cover;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.right-menu .fas {
+  position: absolute;
+  top: 12px;
+  left: 50px;
+  color: white !important;
+}
+
+.right-menu .fas:hover {
+  cursor: pointer;
+}
+
+.line {
+  border: 1px solid rgb(58, 57, 57);
+  border-bottom: rgb(58, 57, 57);
+}
+
+.line.rotate {
+  position: relative;
+  left: -45%;
+  transform: rotate(90deg);
+  border: 1px solid rgb(58, 57, 57);
+  border-bottom: rgb(58, 57, 57);
+}
+
+.title {
+  position: relative;
+  top: 20px;
+  left: 70px;
+  font-size: 4em;
+}
+.sub-title {
+  position: relative;
+  top: 40px;
+  left: 90px;
+  font-size: 20px;
+  color: rgb(119, 118, 118);
+}
+
+.searchCard {
+  position: relative;
+  top: 60px;
+  box-shadow: rgb(53, 52, 52) 0 0 5px;
+  left: 90px;
+  background-color: rgb(42, 41, 41);
+  width: 100% !important;
+  height: 305px;
+  border-radius: 20px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  width: 300px;
+  border-bottom: solid 1px rgb(71, 71, 71);
+}

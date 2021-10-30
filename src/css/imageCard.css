@@ -1,0 +1,9 @@
+.img-card{
+    position: flex;
+    top: 40px;
+    left: 230px;
+    background: url('https://i.pinimg.com/564x/bf/8b/f7/bf8bf7fbb3bdaa236a4b4b725e0d4005.jpg');
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+}
