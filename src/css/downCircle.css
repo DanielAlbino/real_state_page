@@ -1,0 +1,16 @@
+.down{
+    display: flex;
+    position: relative;
+    float: right;
+    bottom:25px; 
+    right: 50px !important;
+    z-index: 2;
+    border: solid 10px rgb(58, 57, 57);
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: black;
+    color:rgb(247, 132, 112)
+}

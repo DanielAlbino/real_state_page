@@ -1,0 +1,33 @@
+.search-card{
+    padding: 15px;
+}
+
+.input-div{
+    height: 90px;
+}
+
+.search-card input{
+    height: 30px;
+    padding-bottom: 10px;
+    color: rgb(151, 148, 148);
+}
+
+.search-card input:focus{
+    outline:none;
+}
+
+.btn-search{
+    display: flex;
+    margin-left: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center !important;
+    background-color: tomato;
+    box-shadow: tomato -10px 0 80px 0px;
+    
+}
+
+.btn-search:hover{
+    cursor: pointer;
+    background-color: rgb(231, 87, 62);
+}
